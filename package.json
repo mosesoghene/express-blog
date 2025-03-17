@@ -4,7 +4,9 @@
   "description": "An ExpressJS Blog with Authentication",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node --env-file=.env index.js",
+    "dev": "node --watch --trace-warnings --env-file=.env index.js"
   },
   "repository": {
     "type": "git",
